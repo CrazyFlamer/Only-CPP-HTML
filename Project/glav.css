@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body{
+    margin: 0;
+}
+header{
+    font-family: Century Gothic;
+    background-image: url(images/main7.jpg);
+    background-size: cover;
+    height: 1500px;
+    width: 100%;
+    margin-bottom: -35px;
+}
+header h1{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    font-size: 70px;
+    color: black;
+}
+header h2{
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    font-size: 70px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #5c0000;
+}
+header h3{
+    position: absolute;
+    left: 100px;
+    top: 750px;
+    font-size: 70px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #5c0000;
+}
+header h4{
+    position: absolute;
+    left: 100px;
+    top: 890px;
+    font-size: 70px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #5c0000;
+}
+.cont{
+    display: flex;
+    width: 1700px;
+    height: 200px;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+.lef{
+    display: flex;
+    justify-content: space-between;
+}
+.lef a{
+    display: flex;
+    text-decoration: none;
+    color: #228B22;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+.lef a p{
+    border-top: 2px transparent solid;
+    transition: all .5s;
+    transform: translateY(-10px);
+    font-family: 'Indie Flower', cursive;
+    color: 	#556B2F;
+}
+.lef a p:hover{
+    border-top: 4px #556B2F solid;
+}
+.lef a img{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 300px;
+}
+
+.rig{
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    transition: all .5s;
+}
+nav ul li a:hover{
+    color: #FF4500;
+    font-size: 32px;
+}
+
+.we{
+    background-color: black;
+    height: 1000px;
+}
+.we .text1 h1{
+    display: block;
+    width: 500px;
+    position: relative;
+    left: 1700px;
+    top: 300px;
+    color: white;
+    font-size: 45px;
+}
+.we .text1 p{
+    display: block;
+    width: 500px;
+    position: relative;
+    left: 1700px;
+    top: 300px;
+    color: white;
+    font-size: 30px;
+}
+.silka1{
+    border: 3px white solid;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    left: 1800px;
+    top: -200px;
+    color: white;
+    font-size: 45px;
+    transition: all 1s;
+}
+.silka1:hover{
+    border-radius: 0;
+}
+.i4{
+    width 100px;
+    height: 100px;
+    position: relative;
+    left: -240px;
+    top: -570px;
+}
+.we .im{
+    margin: 40px;
+    position: relative;
+    top: -50px;
+    left: -200px;
+}
+.i1{
+    width 100px;
+    height: 100px;
+    position: relative;
+    left: -500px;
+    top: -500px;
+}
+.i2{
+    width 100px;
+    height: 100px;
+    position: relative;
+    left: -1370px;
+    top: -520px;
+}
+.i3{
+    width 100px;
+    height: 100px;
+    position: relative;
+    left: -1550px;
+    top: -400px;
+}
+.tovar{
+    background-color: white;
+    height: 700px;
+    width: 1900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tovar .t{
+    height: 645px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 5px;
+    transition: all .6s;
+}
+.tovar img{
+    display: block;
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    background-size: contain;
+}
+.tovar p{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.tovar h1{
+    font-size: 40px;
+    display: inline;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.tovar h3{
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+}
+.tovar .price{
+    text-decoration:line-through;
+}
+.tovar h2{
+    font-size: 25px;
+    width: 60px;
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+}
+.tovar .t:hover{
+    border: 3px black solid;
+}
+.fotki{
+    background-color: black;
+    height: 1000px;
+}
+.fotki img{
+    margin-top: -150px;
+    width: 100%;
+    height: auto;
+}
+.fotki h1{
+    position: relative;
+    right: -1000px;
+    top: 200px;
+    color: black;
+    font-size: 45px;
+    width: 1000px;
+}
+.silka2{
+    border: 3px black solid;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    left: 1400px;
+    top: 300px;
+    color: black;
+    font-size: 45px;
+    transition: all 1s;
+}
+.silka2:hover{
+    border-radius: 0;
+}
+.brend{
+    background-color: black;
+    height: 1000px;
+    margin-top: -30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.brend img{
+    margin: 30px;
+}
+.brend h1{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 50px;
+    color: white;
+}
+.dost{
+    background-color: white;
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.dost .t{
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    transition: all .6s;
+}
+.dost .t1 img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 150px;
+    margin-bottom: -20px;
+    transition: all .6s;
+}
+.dost img{
+    display: block;
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    background-size: contain;
+}
+.dost h2{
+    font-size: 30px;
+    border: black 4px dotted;
+    padding: 10px;
+}
+footer{
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+footer img{
+    width:100px;
+    margin-right: 10px;
+}
+footer h2{
+    font-size: 30px;
+}
+footer h3{
+    font-size: 23px;
+}

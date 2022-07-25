@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+body{
+    margin: 0;
+}
+header{
+    color:  #eee;
+    background-color: transparent ;
+    font-family: Century Gothic;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cont{
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    height: 130px;
+    justify-content: space-between;
+}
+.lef{
+    display: flex;
+    justify-content: space-between;
+}
+.lef a{
+    display: flex;
+    text-decoration: none;
+    color: #228B22;
+    font-size: 40px;
+    font-family: Century Gothic;
+}
+.lef a p{
+    border-top: 2px transparent solid;
+    transition: all .5s;
+    transform: translateY(-10px);
+    font-family: 'Indie Flower', cursive;
+}
+.lef a img{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+}
+
+.rig{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    transition: all .5s;
+}
+nav ul li a:hover{
+    color: yellow;
+    font-size: 22px;
+}
+.lef a p:hover{
+    border-top: 2px #228B22 solid;
+}
+.main{
+    display: block;
+    width: 1170px;
+    height: 1000px;
+    margin: auto;
+    margin-top: -21px;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+}
+main blockquote{
+    font-size: 30px;
+    border-top: 5px solid red;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid red;
+}
+main blockquote p{
+    font-family: 'Indie Flower', cursive;
+}
+main blockquote cite{
+    display: flex;
+    justify-content:flex-end;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+main .text{
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+body{
+    background-image: url(images/main4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav2{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    background-color:transparen;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.facebook{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-image: url(images/facebook1.png);
+    background-size: contain;
+     margin-right: 50px;
+    border-radius: 31%;
+    transition: all 1s;
+    background-color: #2b5297;
+    transition: all 1s;
+}
+.facebook:hover {
+    box-shadow: 0 0 50px #2b5297;
+    transform: scale(1.2,1.2)
+}
+.youtube{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-image: url(images/youtube.png);
+    background-size: contain;
+     margin-right: 50px;
+    border-radius: 31%;
+    transition: all 1s;
+    background-color: #c30000;
+    transition: all 1s;
+}
+.youtube:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 50px #c30000;
+}
+.what{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-image: url(images/whatsapp.png);
+    background-size: contain;
+     margin-right: 50px;
+    border-radius: 31%;
+    transition: all 1s;
+    background-color: #26a614;
+    transition: all 1s;
+}
+.what:hover{
+    box-shadow: 0 0 50px #26a614;
+    transform: scale(1.2,1.2)
+}
+.instagram{
+    display: inline-block;
+    height: 70px;
+    border-radius: 31%;
+    width: 70px;
+    background-image: url(images/instagram1.png);
+    background-size: 100%;
+    background-position: center;
+    margin-right: 50px;
+    transition: all 1s;
+    background-color: #fdfd03;
+}
+.instagram:hover{
+    transform: rotate(360deg);
+    box-shadow: 0 0 50px #BA55D3;
+}
+.nav2{
+    margin-top: 20px;
+}
+.tovar{
+    background-color: white;
+    height: 700px;
+    width: 1900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tovar .t{
+    height: 645px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 5px;
+    transition: all .6s;
+}
+.tovar img{
+    display: block;
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    background-size: contain;
+}
+.tovar p{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.tovar h1{
+    font-size: 40px;
+    display: inline;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.tovar h3{
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+}
+.tovar .price{
+    text-decoration:line-through;
+}
+.tovar h2{
+    font-size: 25px;
+    width: 60px;
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+}
+.tovar .t:hover{
+    border: 3px black solid;
+}
+footer{
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+footer img{
+    width:100px;
+    margin-right: 10px;
+}
+footer h2{
+    font-size: 30px;
+}
+footer h3{
+    font-size: 23px;
+}

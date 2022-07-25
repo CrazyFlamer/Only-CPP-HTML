@@ -1,0 +1,42 @@
+body{
+    background-image: url(merry-christmas-happy-new-year-seamless-pattern-with-icons_1416-419.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+.form{
+    display: block;
+    width: 700px;
+    margin: auto;
+    background-color: #FFFFE0;
+    text-align: center;
+}
+input{
+    background-color: #FFFFE0;
+    border: 6px dotted blue;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+textarea{
+    background-color: #FFFFE0;
+    border: 6px dotted blue;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+    border: 6px solid skyblue;
+}
+textarea:focus{
+    outline: none;
+    border: 6px solid skyblue;
+}
+.sub_form{
+    background-color: beige;
+    border: 6px solid red; 
+}
